@@ -1,20 +1,12 @@
-# Next.js Project for Appscrip
+#### To start the development server, run the following command:
 
-This is a **Next.js** project created as an assignment for **Appscrip**. It uses **create-next-app** to set up the initial structure.
-
-## Getting Started
-
-To start the development server, run the following command:
-
-```bash
+``bash
 npm run dev
-
-
+``
 ## Features
 
 - This project includes several components that help build a user-friendly interface.
 - It also uses **Server-Side Rendering (SSR)**, which allows the page to load faster and improves SEO by generating the content on the server before sending it to the client.
-
 
 ## Live Site
 
