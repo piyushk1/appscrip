@@ -44,7 +44,7 @@ const Footer = () => {
                 <p className="currencyText">USD</p> 
               </div>
 
-              <p>
+              <p className="transaction">
                 Transactions will be completed in Euros and a currency reference
                 is available on hover.
               </p>
@@ -53,7 +53,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Separator for larger screens */}
       <div className="footerLine"></div>
 
       <div className="footerContent">
