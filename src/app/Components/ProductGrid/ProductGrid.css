@@ -1,0 +1,76 @@
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px;  
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  .productGrid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (min-width: 768px) {
+  .productGrid.hasFilter {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+.productGridWrapper.hasFilter .productGrid {
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 70%; 
+  margin: 0 auto;
+}
+
+.productImage {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.productName {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.productMessage {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  text-align: left;
+}
+
+.favoriteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.favoriteIcon {
+  font-size: 20px;
+  color: red;
+}

@@ -1,0 +1,46 @@
+.greyStrip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 32px;
+  padding: 8px 20px;
+  opacity: 1;
+}
+
+.content {
+  font-family: "Simplon Norm";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #EB4C6B;
+}
+
+@media (max-width: 768px) {
+  .greyStrip {
+    flex-direction: column;
+    height: auto;
+    padding: 8px 16px;
+  }
+
+  .content {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .content:not(:first-child) {
+    display: none; 
+  }
+}
+
+@media (max-width: 480px) {
+  .greyStrip {
+    padding: 8px 10px;
+  }
+
+  .content {
+    font-size: 10px;
+  }
+}
