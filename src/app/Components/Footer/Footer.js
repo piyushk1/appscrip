@@ -3,7 +3,7 @@ import "./Footer.css";
 import Image from "next/image";
 import GPAY from "../../../public/assets/GPAY.png";
 import AmericanExpress from "../../../public/assets/AmericanExpress.png";
-import MasterCard from "../../../public/assets/MasterCard.png";
+import MasterCard from "../../../public/assets/Mastercard.png";
 import Paypal from "../../../public/assets/paypal.png";
 import Opay from "../../../public/assets/opay.png";
 import Apay from "../../../public/assets/Apay.png";
